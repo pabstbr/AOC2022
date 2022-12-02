@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
-givenFile = open('../resources/Day1input.txt', 'r')
+inputFile = open('../resources/Day1Input', 'r')
 currentElfCals = 0
 elves = []
-for line in givenFile:
+for line in inputFile:
     if line.strip():
         currentElfCals += int(line.strip())
     else:
