@@ -2,7 +2,7 @@
 import string
 from itertools import islice
 
-with open('../resources/Day3Input', 'r') as inputFile:
+with open('../resources/PuzzleInputs/Day3Input', 'r') as inputFile:
     prioritySum = 0
     badgesSum = 0
     while True:

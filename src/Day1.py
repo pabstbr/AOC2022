@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-inputFile = open('../resources/Day1Input', 'r')
+inputFile = open('../resources/PuzzleInputs/Day1Input', 'r')
 currentElfCals = 0
 elves = []
 for line in inputFile:

@@ -6,7 +6,7 @@ moves = list()
 part1Score = 0
 part2Score = 0
 
-with open('../resources/Day2Input', 'r') as inputFile:
+with open('../resources/PuzzleInputs/Day2Input', 'r') as inputFile:
     strategyReader = csv.reader(inputFile, delimiter=' ')
     for row in strategyReader:
         currScore = 0

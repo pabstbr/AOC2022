@@ -3,7 +3,7 @@ import copy
 import re
 from collections import deque
 
-crateState, moves = open('../resources/Day5input', 'r').read().split('\n\n')
+crateState, moves = open('../resources/PuzzleInputs/Day5Input', 'r').read().split('\n\n')
 stacks = []
 
 for line in crateState.splitlines()[:-1]:

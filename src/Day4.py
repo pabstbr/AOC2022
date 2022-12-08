@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-with open('../resources/Day4input', 'r') as inputFile:
+with open('../resources/PuzzleInputs/Day4Input', 'r') as inputFile:
     containedRanges = 0
     overlappingRanges = 0
 

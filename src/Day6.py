@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-signal = open('../resources/Day6input', 'r').read()
+signal = open('../resources/PuzzleInputs/Day6Input', 'r').read()
 
 # Part 1
 firstMarker = 0
